@@ -186,8 +186,8 @@ Users report spending **more time building and maintaining automations than the 
 ## 7. Sources & Bibliography
 
 1. [Salesforce SMB Trends Report 2024](https://www.salesforce.com/resources/research-reports/smb-trends/)
-2. [Zapier State of Business Automation 2024](https://zapier.com/blog/state-of-business-automation-2024/)
-3. [Harvard Business Review — AI and Small Business](https://hbr.org/2024/11/how-small-businesses-are-starting-to-use-ai)
+2. [Zapier Automation Statistics 2025 — SQ Magazine](https://sqmagazine.co.uk/zapier-statistics/)
+3. [Fortune / HBR — Only 6% of Companies Fully Trust AI Agents (Dec 2025)](https://fortune.com/2025/12/09/harvard-business-review-survey-only-6-percent-companies-trust-ai-agents/)
 4. [Lindy.ai](https://www.lindy.ai/)
 5. [Relevance AI](https://relevanceai.com/)
 6. [Zapier](https://zapier.com/)
@@ -200,5 +200,5 @@ Users report spending **more time building and maintaining automations than the 
 13. [Reddit r/MSP](https://www.reddit.com/r/msp/)
 14. [G2 Zapier Reviews](https://www.g2.com/products/zapier/reviews)
 15. [Grand View Research — Workflow Automation Market](https://www.grandviewresearch.com/industry-analysis/business-process-automation-market)
-16. [Gartner — Hyperautomation Trends 2025](https://www.gartner.com/en/articles/what-is-hyperautomation)
+16. [Gartner IT Automation & Hyperautomation Trends](https://www.advsyscon.com/blog/gartner-it-automation/)
 17. [McKinsey — The State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
