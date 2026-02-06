@@ -1,1 +1,84 @@
-body{font-family:Georgia,serif;background:#faf9f6;color:#111;max-width:68ch;margin:4rem auto;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #0f0f1a;
+  color: #e0e0e0;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+a {
+  color: #00d4ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+nav {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(90deg, #00d4ff, #7b2ff7, #00d4ff) 1;
+  margin-bottom: 2rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 4rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #00d4ff;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+li strong {
+  color: #ffffff;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  background: #1a1a2e;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
