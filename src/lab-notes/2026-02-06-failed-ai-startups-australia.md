@@ -4,11 +4,11 @@ date: 2026-02-06
 layout: layouts/base.njk
 summary: Australian AI startups that showed strong early promise but ultimately failed, with evidence-backed reasons and sources.
 tags:
+  - lab-note
   - ai
   - startups
   - australia
   - failures
-collection: lab-note
 ---
 
 ## Overview
