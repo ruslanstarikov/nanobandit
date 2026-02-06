@@ -2,6 +2,7 @@
 title: Failed AI Startups That Didn’t Make It
 date: 2026-02-06
 summary: Noticed AI startups that raised money, launched products, then collapsed, pivoted, or quietly shut down.
+collection: lab-note
 tags:
   - ai
   - startups
