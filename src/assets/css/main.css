@@ -75,6 +75,37 @@ li strong {
   color: #ffffff;
 }
 
+/* Shared blog / lab-notes list styling */
+.post-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-title {
+  font-weight: 600;
+}
+
+.post-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: #9aa0a6;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
 code {
   font-family: 'JetBrains Mono', monospace;
   background: #1a1a2e;

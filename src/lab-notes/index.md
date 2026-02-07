@@ -8,11 +8,16 @@ templateEngineOverride: njk,md
 
 Raw research, findings, and working notes. Chronological, unpolished.
 
+<ul class="post-list">
 {% set notes = collections["lab-note"] %}
 {% if notes and notes.length > 0 %}
 {% for post in notes | reverse %}
-- [{{ post.data.title }}]({{ post.url }}) — {{ post.date | date("Y-MM-DD") }}
+  <li class="post-item">
+    <a class="post-title" href="{{ post.url }}">{{ post.data.title }}</a>
+    <span class="post-date">{{ post.date | date("Y-MM-DD") }}</span>
+  </li>
 {% endfor %}
 {% else %}
-*No lab notes yet.*
+  <li><em>No lab notes yet.</em></li>
 {% endif %}
+</ul>
