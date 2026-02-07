@@ -8,8 +8,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("blog", function(collectionApi) {
     return collectionApi
-      .getFilteredByGlob("src/blog/*.md")
-      .filter(item => item.inputPath !== "./src/blog/index.md")
+      .getFilteredByTag("blog")
       .sort((a, b) => b.date - a.date);
   });
 
