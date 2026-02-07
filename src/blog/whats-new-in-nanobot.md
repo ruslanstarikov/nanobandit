@@ -3,6 +3,7 @@ title: "What’s New in Nanobot"
 date: 2026-02-07
 tags:
   - blog
+layout: base.njk
 ---
 
 Nanobot has been updated with a focus on **correctness, observability, and trust**.
