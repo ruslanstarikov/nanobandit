@@ -1,7 +1,7 @@
 ---
 title: "Research: Best LLMs for Minibot (2026)"
 layout: base.njk
-tags: [blog]
+tags: [lab-note]
 date: 2026-02-08
 ---
 
