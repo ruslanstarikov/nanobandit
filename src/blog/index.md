@@ -3,4 +3,9 @@ layout: base.njk
 title: Blog
 ---
 
-Longer-form writing and reflections.
+# Blog
+
+{% for post in collections.blog | slice(0,10) %}
+- **[{{ post.data.title }}]({{ post.url }})**  
+  <small>{{ post.date | date }}</small>
+{% endfor %}

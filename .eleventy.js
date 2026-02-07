@@ -6,6 +6,13 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("blog", function(collectionApi) {
+    return collectionApi
+      .getFilteredByGlob("src/blog/*.md")
+      .filter(item => item.inputPath !== "./src/blog/index.md")
+      .sort((a, b) => b.date - a.date);
+  });
+
   eleventyConfig.addFilter("date", function(dateObj, format) {
     const d = new Date(dateObj);
     const year = d.getFullYear();
